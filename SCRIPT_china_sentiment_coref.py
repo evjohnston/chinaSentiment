@@ -2,86 +2,113 @@
 import pandas as pd
 import spacy
 import coreferee
-from textblob import TextBlob
 import nltk
+from nltk.sentiment import SentimentIntensityAnalyzer
 from tqdm import tqdm
 import re
 
-# Required once per session
+# Download necessary resources
 nltk.download("punkt")
+nltk.download("vader_lexicon")
 
 # %%
-# === Load SOTU data ===
-df = pd.read_csv("full_sotu_data.csv")
+# === Load data ===
+df = pd.read_csv("CSV_full_sotu_data.csv")
 df["text"] = df["text"].fillna("")
 df["year"] = df["year"].astype(int)
 
 # === China-related terms ===
 china_keywords = [
-    "china", "chinese", "beijing", "xi jinping", "hong kong", "taiwan"
+    "china", "chinese", "beijing", "xi jinping", "hong kong", "taiwan",
+    "tibet", "xinjiang", "one china", "prc", "pla", "ccp",
+    "belt and road", "silk road", "chinese economy", "trade with china",
+    "chinese imports", "chinese exports", "tariffs on china",
+    "south china sea", "military buildup", "chinese navy", "cyberattacks from china",
+    "spy balloon", "balloon incident",
+    "communist party", "ccp", "authoritarian regime", "human rights in china",
+    "democracy in hong kong"
 ]
+china_pronouns = {"they", "them", "their", "theirs"}
+
+# === Precompile keyword regex ===
+china_pattern = re.compile(
+    r"\b(" + "|".join(re.escape(k.lower()) for k in china_keywords) + r")\b"
+)
 
 # %%
-# === Load spaCy w/ coreferee ===
+# === Load spaCy + coreferee ===
 print("Loading spaCy coreference model (this may take a moment)...")
 nlp = spacy.load("en_core_web_lg")
 nlp.add_pipe("coreferee")
 
 # %%
-# === Helper: Extract China-related sentences from speech ===
+# === Filter out filler / noise ===
+def is_noise_sentence(text):
+    text = text.strip().lower()
+    return (
+        text.startswith("(applause") or
+        len(text) < 10 or
+        re.match(r"^\(.*\)$", text)
+    )
+
+# %%
+# === Extract China-related sentences with coref + precise matching ===
 def extract_china_sentences_with_coref(speech):
     doc = nlp(speech)
-    china_related_sent_ids = set()
-    
-    # 1. Get sentence boundaries
     sents = list(doc.sents)
-    
-    # 2. Identify mentions of China
-    china_token_indices = set()
-    for i, token in enumerate(doc):
-        if token.text.lower() in china_keywords:
-            china_token_indices.add(i)
+    china_related_sent_ids = set()
 
-    # 3. Coreference chains
+    # 1. Direct keyword match
+    for i, sent in enumerate(sents):
+        if china_pattern.search(sent.text.lower()):
+            china_related_sent_ids.add(i)
+
+    # 2. Coreference chains
     for chain in doc._.coref_chains:
         mentions = list(chain)
-        china_chain = any(
-            idx in china_token_indices for m in mentions for idx in m.token_indexes
+        chain_token_idxs = [idx for m in mentions for idx in m.token_indexes]
+
+        chain_contains_china = any(
+            china_pattern.search(doc[idx].text.lower()) for idx in chain_token_idxs
         )
-        if china_chain:
-            for m in mentions:
-                if not m.token_indexes:
-                    continue
-                token_idx = m.token_indexes[0]
-                sent_start = doc[token_idx].sent.start
-                sent_id = next((i for i, s in enumerate(sents) if s.start == sent_start), None)
+
+        if not chain_contains_china:
+            continue
+
+        for m in mentions:
+            if not m.token_indexes:
+                continue
+            tokens = [doc[idx] for idx in m.token_indexes]
+            if any(t.text.lower() in china_pronouns or china_pattern.search(t.text.lower()) for t in tokens):
+                sent = tokens[0].sent
+                sent_id = next((i for i, s in enumerate(sents) if s.start == sent.start), None)
                 if sent_id is not None:
                     china_related_sent_ids.add(sent_id)
 
-    # 4. Also add directly mentioned sentences
-    for i, sent in enumerate(sents):
-        if any(k in sent.text.lower() for k in china_keywords):
-            china_related_sent_ids.add(i)
-
-    # 5. Return all tagged sentences (with bounds check)
-    china_sentences = [sents[i].text for i in sorted(china_related_sent_ids) if i < len(sents)]
-    return china_sentences
+    return [
+        sents[i].text.strip()
+        for i in sorted(china_related_sent_ids)
+        if i < len(sents) and not is_noise_sentence(sents[i].text)
+    ]
 
 # %%
-# === Process all speeches ===
+# === Initialize VADER ===
+sia = SentimentIntensityAnalyzer()
+
+# %%
+# === Analyze dataset ===
 results = []
+sentence_records = []
 
 for i, row in tqdm(df.iterrows(), total=len(df)):
     speech = row["text"]
     china_sents = extract_china_sentences_with_coref(speech)
-    
+
     if china_sents:
-        sentiment_scores = [TextBlob(s).sentiment.polarity for s in china_sents]
+        sentiment_scores = [sia.polarity_scores(s)["compound"] for s in china_sents]
         avg_sentiment = sum(sentiment_scores) / len(sentiment_scores)
-        mention_count = sum(
-            len(re.findall(r"\b" + re.escape(k) + r"\b", " ".join(china_sents).lower()))
-            for k in china_keywords
-        )
+        mention_count = len(china_pattern.findall(" ".join(china_sents).lower()))
+
         results.append({
             "president": row["president"],
             "year": row["year"],
@@ -90,14 +117,27 @@ for i, row in tqdm(df.iterrows(), total=len(df)):
             "china_mention_count": mention_count
         })
 
+        for sent, score in zip(china_sents, sentiment_scores):
+            sentence_records.append({
+                "president": row["president"],
+                "year": row["year"],
+                "party": row["party"],
+                "sentence": sent,
+                "sentiment": score
+            })
+
 # %%
-# === Convert to DataFrame & Save ===
+# === Save outputs ===
 china_df = pd.DataFrame(results)
 china_df = china_df.groupby(["president", "year", "party"], as_index=False).agg({
     "china_sentiment": "mean",
     "china_mention_count": "sum"
 })
+china_df.to_csv("CSV_china_sentiment_coref_summary.csv", index=False)
 
-china_df.to_csv("china_sentiment_coref_summary.csv", index=False)
+sentence_df = pd.DataFrame(sentence_records)
+sentence_df.to_csv("CSV_china_sentences_coref_detailed.csv", index=False)
 
-print("✅ Saved: china_sentiment_coref_summary.csv")
+print("✅ Done! Saved:")
+print("- CSV_china_sentiment_coref_summary.csv")
+print("- CSV_china_sentences_coref_detailed.csv")

@@ -15,14 +15,14 @@ Barack Obama,2013,Democratic,0.15833333333333335,1
 Barack Obama,2014,Democratic,0.17045454545454544,2
 Barack Obama,2015,Democratic,0.125,4
 Barack Obama,2016,Democratic,0.1361111111111111,3
-Benjamin Harrison,1889,Republican,0.17198979591836736,5
+Benjamin Harrison,1889,Republican,0.202452380952381,5
 Benjamin Harrison,1890,Republican,0.09557823129251702,4
-Benjamin Harrison,1891,Republican,0.03445294784580499,15
+Benjamin Harrison,1891,Republican,0.04713955026455027,15
 Benjamin Harrison,1892,Republican,0.013492063492063491,3
 Calvin Coolidge,1925,Republican,0.06999999999999999,2
 Calvin Coolidge,1926,Republican,0.012096560846560847,14
 Calvin Coolidge,1927,Republican,0.1,2
-Calvin Coolidge,1928,Republican,0.09451659451659451,3
+Calvin Coolidge,1928,Republican,0.08571428571428572,3
 Chester A. Arthur,1881,Republican,0.03200000000000001,6
 Chester A. Arthur,1882,Republican,0.02397186147186147,5
 Chester A. Arthur,1883,Republican,0.1353174603174603,8
@@ -32,12 +32,12 @@ Donald Trump,2018,Republican,0.0,3
 Donald Trump,2019,Republican,0.1303030303030303,5
 Donald Trump,2020,Republican,0.16076839826839828,6
 Donald Trump,2025,Republican,0.03580687830687831,6
-Dwight D. Eisenhower,1953,Republican,0.0023809523809523803,6
-Dwight D. Eisenhower,1954,Republican,0.325,4
+Dwight D. Eisenhower,1953,Republican,0.002777777777777777,6
+Dwight D. Eisenhower,1954,Republican,0.32,5
 Dwight D. Eisenhower,1955,Republican,0.08380681818181818,2
 Dwight D. Eisenhower,1956,Republican,0.023611111111111124,2
 Dwight D. Eisenhower,1959,Republican,0.5428571428571429,1
-Dwight D. Eisenhower,1961,Republican,-0.0234375,5
+Dwight D. Eisenhower,1961,Republican,-0.0234375,6
 Franklin D. Roosevelt,1941,Democratic,-0.09166666666666667,1
 Franklin D. Roosevelt,1942,Democratic,0.1209722222222222,5
 Franklin D. Roosevelt,1943,Democratic,0.07854166666666668,6
@@ -50,11 +50,10 @@ George W. Bush,2003,Republican,0.15,1
 George W. Bush,2006,Republican,0.06818181818181818,1
 George W. Bush,2007,Republican,0.4,1
 George W. Bush,2008,Republican,0.2739393939393939,1
-George Washington,1794,Nonpartisan,0.0,0
 Gerald R. Ford,1975,Republican,0.18409090909090908,1
 Gerald R. Ford,1976,Republican,0.5,1
-Gerald R. Ford,1977,Republican,0.15,1
-Grover Cleveland,1885,Democratic,0.07759589947089947,14
+Gerald R. Ford,1977,Republican,0.0,1
+Grover Cleveland,1885,Democratic,0.07252886002886003,14
 Grover Cleveland,1886,Democratic,0.1974702380952381,6
 Grover Cleveland,1888,Democratic,0.11479591836734693,6
 Grover Cleveland,1893,Democratic,0.1636607142857143,4
@@ -62,10 +61,10 @@ Grover Cleveland,1894,Democratic,-0.0034090909090909102,6
 Grover Cleveland,1895,Democratic,0.09072360675039247,9
 Harry S Truman,1946,Democratic,0.06708333333333333,4
 Harry S Truman,1948,Democratic,0.35714285714285715,1
-Harry S Truman,1951,Democratic,0.375,2
-Harry S Truman,1952,Democratic,-0.018181818181818184,1
-Harry S Truman,1953,Democratic,0.1588257575757576,8
-Herbert Hoover,1929,Republican,0.016666666666666663,2
+Harry S Truman,1951,Democratic,0.14722222222222223,4
+Harry S Truman,1952,Democratic,0.0,1
+Harry S Truman,1953,Democratic,0.07627551020408163,9
+Herbert Hoover,1929,Republican,-0.025,2
 Herbert Hoover,1931,Republican,0.8,2
 James Buchanan,1857,Democratic,0.1953373015873016,6
 James Buchanan,1858,Democratic,0.11223333333333334,5
@@ -75,9 +74,9 @@ James K. Polk,1845,Democratic,-0.01547619047619047,2
 James K. Polk,1847,Democratic,0.020679012345679013,11
 James K. Polk,1848,Democratic,0.30416666666666664,2
 Jimmy Carter,1978,Democratic,0.0,1
-Jimmy Carter,1979,Democratic,0.1475071022727273,10
-Jimmy Carter,1980,Democratic,0.04435831529581529,17
-Jimmy Carter,1981,Democratic,0.06321006622345908,10
+Jimmy Carter,1979,Democratic,0.1488284632034632,10
+Jimmy Carter,1980,Democratic,0.045643365472910924,17
+Jimmy Carter,1981,Democratic,-0.024161531495715174,10
 John F. Kennedy,1961,Democratic,0.18125000000000002,2
 John F. Kennedy,1962,Democratic,0.06454545454545454,1
 John F. Kennedy,1963,Democratic,-0.25,3
@@ -85,7 +84,7 @@ John Quincy Adams,1825,Democratic-Republican,0.55,1
 John Tyler,1843,Whig,0.2625,3
 John Tyler,1844,Whig,0.09999999999999999,1
 Joseph Biden,2021,Democratic,0.11574404761904762,5
-Joseph Biden,2022,Democratic,0.13819444444444443,4
+Joseph Biden,2022,Democratic,0.05729166666666667,4
 Lyndon B. Johnson,1966,Democratic,-0.08333333333333333,1
 Lyndon B. Johnson,1967,Democratic,0.2625,3
 Lyndon B. Johnson,1968,Democratic,-0.3666666666666667,2
@@ -95,30 +94,31 @@ Millard Fillmore,1851,Whig,0.08194444444444444,3
 Millard Fillmore,1852,Whig,0.23333333333333334,2
 Richard M. Nixon,1970,Republican,0.0,1
 Richard M. Nixon,1972,Republican,0.041666666666666664,2
-Richard M. Nixon,1974,Republican,0.10949074074074074,5
+Richard M. Nixon,1974,Republican,0.11875,5
+Ronald Reagan,1981,Republican,0.09166666666666667,1
 Ronald Reagan,1985,Republican,0.0,1
 Ronald Reagan,1988,Republican,0.18333333333333335,1
 Rutherford B. Hayes,1878,Republican,0.0,1
 Rutherford B. Hayes,1879,Republican,0.2222222222222222,3
 Rutherford B. Hayes,1880,Republican,0.19937500000000002,4
-Theodore Roosevelt,1901,Republican,0.09314108087679515,20
+Theodore Roosevelt,1901,Republican,0.1007225866537091,20
 Theodore Roosevelt,1902,Republican,0.019583333333333328,3
 Theodore Roosevelt,1903,Republican,0.06525252525252524,6
 Theodore Roosevelt,1904,Republican,0.23347985347985348,6
 Theodore Roosevelt,1905,Republican,0.06821825396825397,32
 Theodore Roosevelt,1907,Republican,0.09280753968253967,9
-Theodore Roosevelt,1908,Republican,0.009152840623428873,16
+Theodore Roosevelt,1908,Republican,0.03402401302401303,16
 Ulysses S. Grant,1869,Republican,0.2511160714285714,4
 Ulysses S. Grant,1870,Republican,0.01746031746031746,6
-Ulysses S. Grant,1871,Republican,0.04299603174603175,4
+Ulysses S. Grant,1871,Republican,0.017708333333333333,4
 Ulysses S. Grant,1872,Republican,0.020655534941249224,4
 Ulysses S. Grant,1873,Republican,0.06874999999999999,2
 Ulysses S. Grant,1874,Republican,0.048095238095238094,5
 Ulysses S. Grant,1875,Republican,0.04583333333333332,1
-William Howard Taft,1909,Republican,0.042261904761904764,12
+William Howard Taft,1909,Republican,0.026488095238095245,12
 William Howard Taft,1910,Republican,0.056725175865800864,22
 William Howard Taft,1911,Republican,0.11781690531690533,20
-William Howard Taft,1912,Republican,0.07245702826585179,18
+William Howard Taft,1912,Republican,0.07421392496392495,17
 William J. Clinton,1994,Democratic,0.19999999999999998,1
 William J. Clinton,1997,Democratic,0.07329545454545454,7
 William J. Clinton,1998,Democratic,0.11818181818181818,1
@@ -127,4 +127,3 @@ William J. Clinton,2000,Democratic,0.02667233560090703,9
 William McKinley,1898,Republican,0.05101440226440226,8
 William McKinley,1899,Republican,0.07564102564102564,6
 William McKinley,1900,Republican,0.0347915717323612,47
-Woodrow Wilson,1919,Democratic,-0.11927083333333333,0

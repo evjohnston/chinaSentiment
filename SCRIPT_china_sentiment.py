@@ -56,7 +56,7 @@ summary = df.groupby(["president", "year", "party"], as_index=False).agg({
 })
 
 # Save processed data
-summary.to_csv("china_sentiment_summary.csv", index=False)
+summary.to_csv("CSV_china_sentiment_summary.csv", index=False)
 
 # %%
 # %%
