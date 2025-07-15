@@ -36,8 +36,6 @@ if not invalid_dates.empty:
 df = df[df["year"].notna()]
 df["year"] = df["year"].astype(int)
 
-print("Years in cleaned dataset:", df["year"].unique())
-
 # === China-related terms ===
 china_keywords = [
     "china", "chinese", "beijing", "xi jinping", "hong kong", "taiwan",
