@@ -1,9 +1,10 @@
-import fitz  # PyMuPDF
+# import fitz  # PyMuPDF
 import os
 import pandas as pd
 import re
 
 # === Paths ===
+os.chdir('3. NIC')
 pdf_folder = "PDFs"
 txt_folder = "extracted_texts"
 csv_path = "NICtexts.csv"
@@ -21,26 +22,26 @@ def clean_text(text):
     return text.strip()
 
 # === STEP 1: Convert PDFs → cleaned TXT files ===
-for filename in os.listdir(pdf_folder):
-    if filename.lower().endswith(".pdf"):
-        pdf_path = os.path.join(pdf_folder, filename)
-
-        # Normalize name
-        base_name = os.path.splitext(filename)[0].strip().lower()
-        txt_filename = base_name + ".txt"
-        txt_path = os.path.join(txt_folder, txt_filename)
+# for filename in os.listdir(pdf_folder):
+#    if filename.lower().endswith(".pdf"):
+#        pdf_path = os.path.join(pdf_folder, filename)
+#
+#        # Normalize name
+#        base_name = os.path.splitext(filename)[0].strip().lower()
+#        txt_filename = base_name + ".txt"
+#        txt_path = os.path.join(txt_folder, txt_filename)
 
         # Extract and clean text
-        with fitz.open(pdf_path) as doc:
-            raw_text = "\n".join(page.get_text() for page in doc)
+#        with fitz.open(pdf_path) as doc:
+#            raw_text = "\n".join(page.get_text() for page in doc)
 
-        cleaned = clean_text(raw_text)
+#        cleaned = clean_text(raw_text)
 
         # Save to .txt
-        with open(txt_path, "w", encoding="utf-8") as f:
-            f.write(cleaned)
+#        with open(txt_path, "w", encoding="utf-8") as f:
+#            f.write(cleaned)
 
-        print(f"[✓] Saved cleaned text to: {txt_path}")
+#        print(f"[✓] Saved cleaned text to: {txt_path}")
 
 # === STEP 2: Load CSV and inject cleaned text ===
 df = pd.read_csv(csv_path)
@@ -55,7 +56,7 @@ for i, row in df.iterrows():
     txt_path = os.path.join(txt_folder, txt_filename)
 
     if os.path.exists(txt_path):
-        with open(txt_path, "r", encoding="utf-8") as f:
+        with open(txt_path, 'r', encoding='utf-8', errors='replace') as f:
             text = f.read()
         df.at[i, "Full Text"] = text
         print(f"[✓] Inserted text into CSV for: {short_title}")

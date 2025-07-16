@@ -1,1 +1,891 @@
-DECLASSIFIED by DNI Haines on December
+
+DECLASSIFIED by DNI Haines on 11 December 2023
+
+
+NATIONAL	INTELLIGENCE	COUNCIL
+
+
+
+
+
+
+
+
+
+
+
+
+
+INTELLIGENCE  COMMllNITY  ASSESSMENT
+23 December 2022	ICA 2022-27259-A
+
+(U)	Foreign Threats to the 2022 US Elections
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       This Intelligence Community Assessmenl was prep(lfed under the (J!JSpices of the National Intl!lligena Ojficer (NIO) for Foreig11 Malign Injluena. It was drafted by the Nario11al Intl!lligf!11Cl! Council and CIA, DHS. FBL and NSA, and coordinaud with CIA, DHS, FBL NGA, NSA, Stare/ INR, a11d Treaswy.
+
+
+
+
+
+(U) Foreign Threats to the 2022 US Elections
+
+23 December 2022	ICA 2022-27259-A
+
+
+
+
+               Key Judgment 1: The IC assesses that China tacitly approved efforts to try to influence a handful of midterm races involving members of both US political parties. People's Republic of China (PRC) intelligence officers, diplomats, and other influence actors probably viewed some election influence activities as consistent with Beijing's standing guidance to counter US politicians viewed as anti-China and to support others viewed as pro-China. We have high confidence in this assessment. PRC leaders most likely see their growing efforts to magnify US societal divisions as a response to what they believe is an intensified US effort to promote democracy at China's expense.
+
+                   Key Judgment 2: The IC assesses that Iran's influence activities reflected its intent to exploit perceived social divisions and undermine confidence in US democratic institutions during this election cycle. We assess that Tehran relied primarily on its intelligence services and Iran-based online influencers to conduct its covert operations. We have moderate confidence in this assessment.
+Tehran's effo11s during the midterms probably in part reflected resource limitations because of competing priorities and the need to manage internal unrest.
+
+                   Key Judgment 3: The IC assesses that the Russian Government and its proxies sought to denigrate the Democratic Party before the midterm elections and undermine confidence in the election, most likely to undermine US support for Ukraine. We have high confidence in this assessment. Elements of the Kremlin and its intelligence services conducted extensive research and analysis of US audiences to inform their election-related efforts, including identifying target demographics and the narratives and platforms that they perceived would appeal to these audiences, reflecting some of the !C's most explicit reporting to date on Russia's US-focused influence operations.
+
+-	Key Judgment 4: The IC assesses that a range of additional foreign actors took some steps to try to undermine US politicians seeking reelection. Their preferences varied and some of these efforts probably were smaller in scale and more narrowly targeted than the activities conducted by China, Iran, and Russia.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[ i l
+
+
+
+
+(U) Scope Note
+
+- This Intelligence Community Assessment (ICA)-prepared pursuant to Executive Order (EO) 13848(1)(a)­ addresses key foreign actors' intentions and efforts to influence or interfere with the 2022 US elections and to undermine public confidence in the US election process. It builds on analysis by CIA, DHS, FBI, the National Intelligence Council, NSA, and other IC elements published throughout the election cycle and provided to Executive Branch and Congressional stakeholders. This assessment references both licit and illicit activity that occurred during this election cycle to provide a holistic view of foreign plans, intentions, and operations. It does not include an assessment of the impact influence and interference activities may have had on the outcome of the elections in 2022. The IC is charged with monitoring and assessing the intentions, capabilities, and actions of foreign actors; it does not analyze US political processes, actors, election administration, vote tabulation processes, or public opinion.
+
+• (U) Pursuant to EO 13848(1)(a), not later than 45 days after the conclusion of a United States election, the DNI, in consultation with the heads of any other appropriate executive departments and agencies, shall conduct an assessment of any information indicating that a foreign government, or any person acting as an agent of or on behalf of a foreign government, has acted with the intent or purpose of interfering in that election. The assessment shall identify, to the maximum extent ascertainable, the nanue of any foreign interference and any methods employed to execute it, the persons involved, and the foreign government or governments that authorized, directed, sponsored, or supported it.
+
+• (U) Pursuant to EO 13848(1)(b), the Attorney General and the Secretary of Homeland Security will subsequently evaluate the impact of any such efforts on the security or integrity of election infrastrncture or infrastmcnue pertaining to a political organization, campaign, or candidate in a 2020 US federal election.
+
+• (U) Pursuant to EO 13848(3)(a), the Secretary of the Treasury, in consultation with the Secretary of State, the Attorney General, and the Secretary of Homeland Security, will impose appropriate sanctions for activities determined to constinne foreign interference in a US election.
+
+(U) Definitions
+
+(1	In 2022, the IC updated its lexicon for foreign malign influence to ensure a common reference guide of country-agnostic terms on this topic. These definitions share some similarities but are not identical to the definition of foreign interference outlined in EO 13848; that definition was inclusive of election interference and election influence.
+
+• (1	For the purpose ofthis assessment, election interference includes efforts aimed at degrading or disrnpting a target's ability to hold elections, including by targeting the physical or technical aspects of an election. This includes cyber operations affecting a government's ability to register voters, cast and count ballots, or report results; cyber operations degrading a campaign's ability to participate in an election; cyber or physical operations targeting election officials, poll workers, or polling places; and assassinations or military or security interventions affecting an election.
+
+• (1	Election influence includes covert or overt efforts by foreign governments, non-state actors, or their proxies, specifically intended, directly or indirectly, to affect an election. These activities can include efforts to sway public opinion; shape voter preferences for specific candidates or political parties; motivate or suppress specific voting blocs by raising contentious social issues; mislead voters about the time, manner, or place of voting; or undermine confidence in the results or political processes, regardless of whether these activities have a material impact on an election.
+
+I ii l
+
+
+
+
+
+• (1
+
+Foreign malign influence includes subversive, undeclared (including covert and clandestine), coercive
+
+or criminal activities by foreign governments, non-state actors, or their proxies to affect another nation's popular or political attinides, perceptions, or behaviors to advance their interests. This can include efforts to sow division, undermine democratic processes and instinitions, or steer policy and regulatory decisions in favor of the foreign actor's strategic objectives.
+
+(U) Sources of Information
+- In drafting this ICA, we considered intelligence repo1ting and other information made available to the IC as of 16 December 2022. CIA, DHS, FBI, NSA, and State/INR-all of which provided reporting used in this ICA­ reviewed their source material to validate its credibility.
+
+• -	This assessment does not take into account information in investigative channels, unless that information was disseminated as intelligence reporting.
+
+• -	The IC does not have access to all social media data. IC collection on US persons and websites is limited based on applicable legal and policy restrictions.
+
+(U) Collection Posture and Key Gaps
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[ iii l
+
+
+
+
+
+(U) Foreign Threats to the 2022 US Elections
+
+23 December 2022	ICA 2022-27259-A
+
+
+
+
+(U) Discussion		a subset of broader influence activity directed at the
+United States.
+
+- We assess that the aggregate scale and scope of foreign activity targeting the US midterm elections exceeded what we detected during the previous midterm elections in 2018. We did not observe a directive from any foreign leader to undertake a comprehensive, whole­ of-government influence campaign, something not seen since 2016. While the activity we detected remained below the level we expect to observe during presidential election years, the IC identified a diverse and growing group of foreign acto
+-engaging insuch operations, including China's
+greater willingness to conduct election influence activities than in past cycles. The involvement of more foreign actors probably reflects shifting geopolitical risk calculus, perceptions that election influence activity has been normalized, the low cost but potentially high reward of such activities, and a greater emphasis on election security in IC collection and analysis.
+
+• During the 2022 US
+elections, China intensified efforts to heighten sociopolitical divisions, but similar to Cub,..
+-	it focused more on efforts to support or undermine a small number of specific candidates based on their policy positions. Russia-and probably to a lesser degree, Iran-aimed to heighten broad, existing US sociopolitical tensions and sow distrust in democratic processes through online information operations.
+
+• -	Foreign policy flashpoints and priorities shaped a number of influence effo11s. For example, Moscow incorporated themes designed to weaken US support for Ukraine into its propaganda, highlighting how election influence operations are
+
+
+- We detected a range of foreign information manipulation tactics deployed during this election cycle, including the covert use of social media accounts and proxy websites, payments to influencers, and enlistment of public relations (PR) firms. At the same time, we have seen adversaries move to alternative online mediums in response to takedowns by US social media platforms and other disrnptions as well as to reach target audiences they perceive as receptive to their messaging.
+
+• -	We assess that most foreign actors now appear largely focused on amplifying authentic US public narratives to try to influence electoral outcomes, increase mistrnst in US election processes, and stoke sociopolitical divisions.
+This approach provides deniability as foreign actors propagate US content to try to exploit existing fissures.
+
+- Notably, we have not seen persistent foreign government cyber efforts to gain access to and tamper with US election infrastrncnue since the presidential election in 2016, when Russia almost certainly reconnoitered election networks in all US states and accessed election-related infrastrncnue in at least two states. Several factors may explain this development, including foreign actors' perceptions that they can have more impact with other operations, challenges they faced targeting the US election system, and heightened awareness of and resilience to cyber operations.
+• 	Rather than foreign actors engaging in broad interference designed to alter votes-which is technically challenging-some adversaries probably believed that they were best
+
+
+
+positioned to try to affect US elections and the US public's perception of them by widely questioning the integrity of election results or promoting false claims about foreign actors' ability to manipulate US election infrastructure, judging from an IC review of foreign information operations since 2018.
+
+• -	The decentralized, heterogeneous US election system poses challenges to foreign actors attempting to interfere with many elements of the election infrastructure. Election infrastructure comprises a diverse set of systems, networks, and processes. Each jurisdiction's election infrastructure is a collection of different components, some interconnected and others not, that function together to conduct elections.
+
+• -	Greater awareness of foreign cyber operations, industry and government disclosures of activity, proactive information sharing with US state and local election officials and industry pa1tners, and other mitigations probably have all increased system resilience. We also judge that since 2016, senior-level US public and private messaging to foreign actors about the potential costs of tampering with election systems probably has deterred some of this activity by establishing clear redlines.
+
+• 	The lack of evidence indicating any willingness by foreign actors to undertake efforts against US election infrastructure suggests they prioritized other pathways to target US elections, probably because of the perceived lower risks associated with information operations. Foreign states are improving their capabilities, and are investing in technologies to bener target and scale broader influence activities targeting the United States, particularly on social media.
+
+intelligence officers, diplomats, and other influence actors probably viewed some election influence activities as consistent with Beijing's standing guidance to counter US politicians viewed as anti-China and to support others viewed as pro-China.
+
+
+
+
+(U) Plans, Intentions, and Calculus
+
+
+
+                          Since 2020, PRC senior leaders have issued broad directives to intensify efforts to influence US policy and public opinion in China's favor. We assess that these directives gave PRC influence actors more freedom to operate ahead of the midterms than the presidential election in 2020, probably because PRC officials believed that Beijing was under less sm1tiny during the midterms and because they did not expect the current Administration to retaliate as severely as they feared in 202
+
+
+• 
+
+
+
+
+
+
+
+
+• PRC leaders most likely
+see their efforts to magnify US societal divisions as a response to what they believe is an intensified US effort to promote democracy at China's expense. Beijing almost certainly viewed the US midterm elections as an opportunity to portray the US
+democratic model as chaotic, ineffective, and
+
+(U) China
+
+
+
+We assess that Beijing
+
+unrepresentative, and frequently directed PRC messaging to highlight US divisions on social issues, such as abortion and gun control.
+
+tacitly approved efforts to try to influence a handful of
+midterm races. People's Republic of China (PRC)
+
+
+•	
+-	PRC leaders repeatedly have instructed officials to focus on Congress because Beijing is convinced that Congress is a locus of anti-China activity, driving a downturn in the bilateral relationship, and more aggressively threatening China's core interests, according to US Government information. In 2021, Beijing identified specific members of Congress to punish for their anti-China views and to reward for their perceived suppo11 of Beijing.
+
+- Despite PRC leaders' concern about the US Congress seeking to contain China, we assess that they refrained from authorizing a comprehensive campaign to influence the midterms in favor of one US political party or to question the legitimacy of election results or processes. China's officials almost certainly viewed the
+risks of such efforts as greater than the rewards because	•
+they were wary of exposure of their influence efforts in the United States, did not want to become embroiled in US politics, and concluded that Congress would remain adversarial to Beijing regardless of which party was in control.
+
+(U) Actors, Methods, and Operations
+
+            We assess that PRC intelligence services, diplomats, and online influence actors conducted activities to undermine or promote specific candidates
+from both major US political parties. These activities	• ranged from covertly denigrating a named US Senator
+
+
+
+
+
+
+a Department of Justice indictment, FBI information, and private-sector reporting. We have high confidence
+-•
+                         
+These activities generally suffered from weaknesses in tradecraft and content that limited their traction. -
+
+
+
+
+
+• We have been unable to
+conclusively attribute to the PRC other midterms­ related online influence activity-which the US private sector has described as inauthentic-that supported Beijing's interests and targeted both left and right-leaning US online communities. A large volume of this activity involved content that highlighted US political divisions and disparaged US democracy, themes which are consistent with China's internal guidance. A small subset of the
+accounts propagated more divisive content-such	• as a video that cast doubt on the utility of voting-
+and limited commentary that questioned the legitimacy of the 2020 presidential election.
+
+
+• -	In December 2022, a US media organization claimed that TikTok accounts run by a PRC propaganda arm targeted candidates from both US political parties, garnering tens of millions of views in the United States.	
+ information from August
+indicated that the China's English-language messaging efforts on TikTok had increased focus on US politicians and US domestic issues, such as abortion, mass shootings, and immigration. In contrast, PRC state media coverage of the 2020 presidential election was limited compared to other topics measured in total volume of content,
+
+
+
+
+probably soughtllllllll
+                     analysis of US election-related topics before the midterms. PRC leaders have directed
+
+
+
+• 
+
+
+• -- In	I PRC
+-	cyber actors scanned more than 100 US
+state and national political party domains-
+
+not observe China targeting specific election infrastructure.
+(U) Iran
+
+
+
+                     We assess that Iran sought to exploit perceived social divisions and undermine confidence in US democratic institutions during this election cycle. Tehran's efforts during the midterms
+
+
+
+were only-	however, probably because of resource limitations stemming from separate overseas election influence operations, the need to manage internal unrest,
+and because of Iran's view of the midterm elections as	• less consequential than presidential elections to its core
+security concerns.
+
+(U) Plans, Intentions, and Calculus
+
+
+
+                We assess that Iran's actions in the lead-up and through the US midterm elections reflected its intent to fuel distrust in US political institutions, increase social tension, and advocate for candidates and policy positions that aligned with Tehran's foreign policy
+
+                            for influence operations in the United States-some election-related-indicate that Iran's longstanding goal of weakening US support for Israel probably guided a subset of its strategy. Unlike its efforts in 2020, we did not detect an Iranian effort to promote violence in the United States.
+
+•
+
+ a DOJ indictment, and a public service announcement by FBI and DHS.
+
+
+
+
+
+•
+
+
+--	•
+
+
+                In 2022, Iran probably intended to influence elections in multiple countries, including Albania, Bahrain, and Israel. Israel's election, which occurred one week before the US midterms, had been a priority for Tehran­
+....,according to US Government information and US military reporting.
+
+• In 2022, Iranian
+                proposed strengthening the positions of  nationalist groups" inside the United States, and
+Iranian officials advocated using covert social media accounts to pit "US extremist groups" against each other, though more likely for use in 2024,	. We did not
+detect Iranian efforts to try to inflame extremist ideologies, intimidate voters, or stoke political violence during the midterms, efforts Tehran undertook during the 2020 election, according to a
+
+
+
+• -¦¦-¦¦¦- In-	2022, Iranian personnel involved in election influence campaigns
+ funding, suggesting that pivoting the unit toward the United States
+would require downsized Iranian election influence activities.
+
+
+[s l
+
+
+
+(U) Actors, Methods, and Operations
+
+
+
+• 
+-	The exposed activities consisted primarily of personas masquerading as left-leaning Americans that included endorsements in US
+subnational election races and fundraising efforts for some US candidates, according to non-
+
+• --
+
+
+
+
+
+
+The same networks generally
+
+supported left-leaning US politicians, including a range of House and Senate candidates. According to the industry report, many of the exposed accounts espoused pro-Palestinian sentiments at the same time they expressed positive sentiments
+
+•
+
+
+
+
+
+
+
+
+
+• In mid-2022, Iranian
+                 considered distributing propaganda, developing and employing "troll teams" on social media platforms, and establishing front news agencies to interact with undisclosed media outlets in the United States. -
+
+
+
+- In October 2022, Twiner exposed three separate Iran-based influence networks operating on its platform;
+- 
+We detected some activity by Iranian
+--	government officials
+to try to shape US policy toward Iran and collect sensitive information, some of which was election­ related.
+•
+
+
+
+
+
+•
+
+
+
+
+
+
+
+•
+
+
+
+
+
+
+
+
+
+
+(U)  Russia
+
+
+          We assess that the Russian Government and its proxies sought to denigrate the Democratic Party before the midterms and undermine confidence in the election, most likely to weaken US support for Ukraine, and to erode trust in US democratic institutions. We did not detect concerted efforts to shape outcomes in specific races, activities targeting election infrastmcture, or hack and leak operations, despite the collection of some potentially compromising material.
+
+(U) Plans, Intentions, and Calculus
+
+
+
+                   We assess that Russia's efforts to denigrate the Democratic Party aimed to increase the likelihood of domestic political conflict that might distract and weaken the United States, and reduce US support to Ukraine. While Russian officials most likely recognized that US support for Ukraine was largely bipartisan, Russian influence actors disproportionately targeted the Democratic Party, probably because Moscow blames the US President for forging a unified Western alliance and for Kyiv's continued pro-Western trajectory, dating back to the US President's role working on policy toward Ukraine in the Obama Administration. Russian influence actors also criticized a small number of Republican Pa11y politicians who Moscow perceived as anti-Russian.
+•
+
+
+• 	As the election neared, Russian influence actors amplified questions about whether US aid to Ukraine would continue if the balance of power in Congress shifted after the midterms, according to a body of reporting.
+
+• 
+2022, Russian military officials proposed delaying the Russian withdrawal from Kherson until after the midterms to avoid giving a named US political party a perceived win before the election. Russia publicly announced its withdrawal the day after the election; a leading Russian propagandist suggested on a top Russian state media program that the Kremlin waited to announce its withdrawal to avoid helping the Democratic Party
+
+
+
+
+
+--	senior guidance already may have been incorporated into standing orders to conduct ongoing influence operations against the United States, or influence actors may have perceived encouragement or
+tacit approval from senior figures.
+
+• 
+
+
+
+
+
+
+
+
+
+
+                                    Russia's tactics before the midterms aimed to build on longstanding efforts to forge ideological inroads with US constituencies that they believed were more sympathetic to Russia's emphasis on "traditional values," according to
+open-source information. -
+
+
+
+
+
+
+
+
+
+
+
+
+
+• 
+
+actors also targeted left-leaning audiences by suggesting that US support to Ukraine risked war with Russia.
+
+•
+
+---	concluded that blaming multiculturalism and "leftist ideals" for ostensibly driving the United States into crisis had elicited
+responses from US males who were more than 40 years old and interested in "rightwing conservatism," 
+--	a Russian Government-linked
+ developed plans to encourage US divisions and erode US public support for aid to Ukraine by targeting white, Latino, lower- and middle-class Americans,
+supporters of so-called "traditional family values," and citizens who purportedly felt disadvantaged by the Administration's policies and restricted by social media censorship, 
+
+•
+
+
+(U) Actors, Methods, and Operations
+
+
+                           This represents some of the IC's most explicit reporting to date on Russia's targeting of these audiences. Russian
+           
+We assess that a range of Russian influence actors, including state media, 	
+covert proxy websites, social media influence accounts,
+
+
+
+Project Lakhta, and a Kremlin-linked PR-firm, as well as Russian Government officials, engaged in activities to try to influence the midterm elections. Russia's efforts almost exclusively were conducted through its online influence apparatus, in line with the type of activity we observed in 2018. Historically, Moscow has prioritized US presidential over US midterm elections and many of the human proxies that Russia used in 2020 have since been sanctioned-probably in part why we detected fewer attempts to directly engage with US political and media entities during this cycle. --
+
+
+
+• 2021,
+                     considered how they could pivot from COVID-19-related and anti­ vaccination narratives on US platforms perceived to be popular with US conservatives to election­ related content before the midterm
+Also    in    2021,....
+
+proposed using influence themes ahead of the 2022 midterms that criticized US policy for developing strategic offensive weapons rather than solving social and domestic problems.
+
+• 
+
+
+
+
+
+
+
+
+
+• 	Moscow also continued to promote allegations that the US President and his family were involved in corrupt activities connected to Ukraine. For example, in May 2022, Russian officials publicly claimed that a number of US
+
+charitable foundations-including those affiliated with the Clinton family and the President's son­ had funded alleged biological research labs in Ukraine.
+• 	Beyond Ukraine-focused narratives, Russian actors criticized Democrats
+and their policies more broadly. For example,
+....,aRussian influence-for-hire group	created
+personas on Gab and Gettr and purchased Facebook accounts emulating Americans with "conservative political views," including personas that favored strict immigration laws and worried about raising children under the current
+
+
+• 	Multiple US industry reports released before the election exposed Russia-linked
+social media operations that targeted candidates from both political parties, and in particular criticized a range of prominent Democratic candidates mnning for office. We assess that these efforts did not reflect a concerted effort to target or hurt the electoral prospects of the candidates, probably because Moscow did not view any specific candidate as decisive enough to change the course of US policy toward Russia.
+Other Russian-linked efforts also were exposed;I
+
+industry uncovered several of its efforts targeting Germany and the United States, including forging documents to try to blame the United States for the war in Ukraine.
+
+          Russia probably assessed that weakening confidence in democratic institutions was beneficial to Moscow's interests and offered fmther opportunities to promote ideological divisions in the United States.
+, Russian influence actors cast aspersions on the integrity of the midterm elections, including by claiming that voting software was vulnerable, Americans expected cheating to
+undermine the midterm elections, and Democrats were
+
+
+
+stealing the elections, according to 
+---	analysis of Russian online influence
+
+damage from Russia's invasion of Ukraine in 2022 probably hampered many of the pro-Russia, Ukraine­
+
+trends.
+
+In-
+
+linked individuals who had worked on Moscow's behalf,
+
+• ---¦
+
+2022,
+-which were intended to
+              
+Some pro-Russian proxies still have links to influential US political circles, but we did not
+
+undermine Western audiences' perceptions of US
+democracy-included a claim that the White House was "already preparing to falsify Congressional elections in November," --
+
+
+• ¦¦¦¦I The day before Election Day, Prigozhin publicly claimed he had meddled in
+previous and current US elections, --
+
+
+narratives about purported voting abnormalities and fraud, particularly in Arizona, and other topics that portrayed the Democratic Party in a negative light,
+according to	11111111 analysis of
+Russian influence actors, and industry analysis.
+• ¦¦¦¦¦¦ Russian influencers highlighted a conspiracy theory claiming that Ukraine had
+invested US aid money in the FTX cryptocurrency exchange to benefit Democratic campaigns, according to the same reporting.
+
+• a
+Prigozhin-linked organization worked to resurface sexual assault allegations against the US President, including through an interview conducted between a member of the organization and a US person in December, judging from
+•	an open-source review.
+
+                   We assess that Russia did not rely as heavily on human proxies to launder its preferred narratives to US audiences as it did in 2020. Sanctions and public exposure in 2020 and reputational
+
+see their efforts specifically directed toward influencing the midterms.
+• ¦¦¦¦¦¦¦ Russia continued to use sympathetic Ukrainian politicians-including US­
+sanctioned Ukrainian legislator Oleh Voloshyn, a
+
+                            -to reach out to US lobbyists, policymakers, and media
+
+
+
+
+
+• -
+
+• 
+
+
+
+
+
+- We did not observe Russian Government cyber actors preparing or conducting cyber operations specifically targeting the US midterms or electoral infrastrucnue, but pro-Russia hacktivists claimed that they had created disruptions and encouraged followers
+to impede targets affiliated with the Democratic Party.
+
+
+
+While some of the groups may have limited government connections, we have no reporting to indicate that these efforts were directed at the Kremlin's behest.
+• In--2022,.
+cyber actors visited websites associated with the election, the US Senate and House of Representatives, and a named member of
+
+perceived as hostile. Havana probably intended these efforts to advance its foreign policy goals, which include removing sanctions, travel restrictions, and its State Sponsor of Terrorism designation, 	
+
+
+and public statements by Cuban officials.
+
+• We assess that Havana
+probably tailored its efforts based on its perception
+
+Congress,  activity is consistent with open-source
+
+This
+
+of the US politicians' stances on US policies
+
+information gathering, and we have no indication that-	hacked the websites or­
+-	planned follow-on operations.
+
+
+• -	On Election Day, multiple pro-Russia hacktivist groups declared their support for the Republican Party, most likely to try to gamer media attention and raise questions about the integrity of the election. One group-the Cyber Army of Russia-encouraged cyber attacks against targets affiliated with the Democratic Party, calling them a "present for Republicans," and also claimed responsibility for a confirmed distributed denial-of-service (DDoS) attack against a US state government's public-facing website, according to a US cyber security firm assessment, --	and open-source reports. The DDoS incident did not affect any infrastrncture used to cast or tally ballots.
+
+(U) Cub
+
+- A range of additional foreign actors took some steps to undermine US politicians seeking reelection.
+Their preferences for who would win varied. -
+ in general, we assess that they were smaller in scale and more narrowly targeted than the activities conducted by
+China, Iran, and Russia.
+
+(U) Cuba
+
+
+• The Cuban
+Government sought to influence perceptions of politicians belonging to both major US political
+
+--suggesting that partisan affiliation is not the sole consideration for its targeting efforts.
+
+                   Havana focused on operations aimed at denigrating specific US candidates in Florida, although it probably attempted to shape impressions of other US politicians,
+
+Government statements indicate that Havana views Cuban-Americans in Miami as having an outsized influence on US policy in Cuba.
+
+• 
+
+
+
+2022, a network of social media accounts almost ce1tainly covertly tied to the Cuban Government created and amplified derogatory content-
+
+
+
+
+We assess that Cuba attempted
+to undermine the electoral prospects of specific US	•
+Congressional and gubernatorial politicians that it
+th
+
+
+members of the US media who held critical views	•
+
+
+
+•
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+......	_
+
+
+
+
+
+
+
+
+
+
+
+-
+
+
+
+
+
+(U) Other Foreign Political Influence Operations
+
+-	The IC obseIVed some foreign government actions that did not clearly meet an IC threshold for election influence. In these cases, the IC either did not detect intelligence indicative of an intent to influence the election, only obseIVed foreign leaders using their public platforms to talk about candidates or campaign issues, or uncovered indications that foreign leaders privately believed that broader influence activities posed manageable risks to their relationship with Washington.
+
+•
+
+
+
+
+
+
+
+•
+
+
+
+
+
+
+
+•
+
+
+
+
+(U) Looking Ahead to the 2024 US Elections	•
+
+- Foreign governments probably will weigh the results of their previous influence efforts, current national security concerns, and the availability of candidates they perceive as friendly or detrimental to their interests as they develop approaches to influencing US elections in 2024.
+
+
+
+
+
+
+
+
+
+
+
+•
+
+•
+
+
+
+•
+
+
+
+
+example, in response to US law enforcement actions involving the former US President in August, Russian state media claimed that the Democratic Party was responsible for trying to imprison the former President to prevent his return to office. That same month, a prominent Russian state TV pundit called on the Russian Government to openly declare its political support for the former US President and "not be shy about it."
+
+
+
+I 14 J
+
+
+
+
+(U) Intelligence Gaps		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+I1s J
+
+
+(U)  Estimative Language
+(U} Estimative language consists of two elements: judgment about the likelihood of developments or events occurring and levels of confidence in the sources and analytic reasoning supporting the judgments. Judgments are not intended to imply that we have proof that shows something to be a fact. Assessments are based on collected information,
+which is often incomplete or fragmentary, as well as logic, argumentation, and precedents.
+(U} Judgments of Likelihood
+(U) The chart below approximates how judgments of likelihood correlate with percentages. Unless otherwise stated, the Intelligence Community's judgments are not derived via statistical analysis. Phrases such as "we judge" and "we assess"-and terms such as "probable" and "likely"-convey analytical assessments.
+Percent
+
+
+ Almost no chance
+
+Very
+unlikely	Unlikely	Roughly even chance	Likely
+
+Very
+likely
+
+Almost
+certainly
+
+
+
+
+0
+
+Remote
+
+20
+Highly
+improbable
+
+40	60
+
+Improbable	Roughly even odds	Probable
+
+80
+Highly
+probable
+
+100
+Nearly
+certain
+
+
+(U) Confidence in our Judgments
+(U) Confidence levels provide assessments of timeliness, consistency, and extent of intelligence and open source reporting that supports judgments. They also take into account the analytic argumentation, the depth of relevant expertise; the degree to which assumptions underlie analysis; and the scope of information gaps.
+(U) We ascribe high, moderate, or low confidence to assessments:
+• (U) High confidence generally indicates that judgments are based on sound analytic argumentation and high­ quality consistent reporting from multiple sources, including clandestinely obtained documents; clandestine and open source reporting; and in-depth expertise; it also indicates we have few intelligence gaps; have few assumptions underlying the analyticline; have found potential for deception to be low; and we have examined long-standing analytic judgments held by the IC and considered alternatives. For most intelligence topics, it will
+not be appropriate to claim high confidence for judgments that forecast out a number of years. High confidence in a judgment does not imply that the assessment is a fact or a certainty; such judgments might be wrong even though we havea higher degree of certainty that they are accurate.
+• (U) Moderate confidence generally means that the information is credibly sourced and plausible but not of sufficient quality or corroborated sufficiently to warrant a higher level of confidence. There may, for example, be information thatcuts in a different direction. We have in-depth expertise on the topic, but we may acknowledge assumptions that underlie our analysis and some information gaps; there may be minor analytic differences within the IC, as well as moderate potential for deception.
+• {U) Low confidence generally means that the information's credibility and/or plausibility is uncertain, that the information is fragmented, dated, or poorly corroborated, or that reliability of the sources is questionable. There may be analytic differences within the IC, several significant information gaps, high potential for deception or numerous assumptions that must be made to draw analytic conclusions. In the case of low confidence, we are forced to use current data toproject out in time, making a higher level ofconfidence impossible.
+
+UNCLASSIFIED	
+
+(U)	 National Intelligence Council	
+
+(U) The National Intelligence Council manages the Intelligence Community's estimative process, incorporating the best available expertise inside and outside the government. It reports to the Director of National Intelligence as head of the US Intelligence Community and speaks authoritatively on substantive issues for the Community as a whole.
+
+
+(U) NIC Leadership
+
+NIC Principal Vice Chair NIC Vice Chair for Analysis Counselor
+Chief of Staff
+Director, Strategic Futures Group Director, Analysis and Production Staff
+
+		National Intelligence Officers
+
+Africa
+
+--	--
+-
+
+Counterintelligence Cyber Issues
+East Asia Economic Issues
+Emerging & Disruptive Technologies Europe
+Foreign Malign Influence Military Issues
+Near East North Korea
+Russia and Eurasia South Asia
+Space
+Terrorism and Transnational Crime
+Weapons of Mass Destruction and Proliferation Westem Hemisphere
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
