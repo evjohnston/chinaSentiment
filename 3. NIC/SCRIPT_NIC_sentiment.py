@@ -38,14 +38,9 @@ df["Year"] = df["Year"].astype(int)
 
 # === China-related terms ===
 china_keywords = [
-    "china", "chinese", "beijing", "xi jinping", "hong kong", "taiwan",
-    "tibet", "xinjiang", "one china", "prc", "pla", "ccp",
-    "belt and road", "silk road", "chinese economy", "trade with china",
-    "chinese imports", "chinese exports", "tariffs on china",
-    "south china sea", "military buildup", "chinese navy", "cyberattacks from china",
-    "spy balloon", "balloon incident",
-    "communist party", "authoritarian regime", "human rights in china",
-    "democracy in hong kong"
+    "china", "chinese", "beijing", "xi jinping", "hong kong", "taiwan", "tibet", "xinjiang",
+    "one china", " prc ", " pla ", " ccp ", "belt and road", "silk road", 
+    "spy balloon", "balloon incident", 
 ]
 china_pronouns = {"they", "them", "their", "theirs"}
 

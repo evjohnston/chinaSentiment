@@ -1,0 +1,80 @@
+Congress,Congress Start Date,Congress End Date,House Majority,Senate Majority,President,President Start Date,President End Date,Presidential Party,Party Government
+54th session,3/4/1895,3/3/1897,Republicans,Republicans,Grover Cleveland,3/4/1885,3/3/1889,Democrat,Divided
+55th session,3/4/1897,3/3/1899,Republicans,Republicans,William McKinley,3/4/1897,9/14/1901,Republican,Unified
+56th session,3/4/1899,3/3/1901,Republicans,Republicans,William McKinley,3/4/1897,9/14/1901,Republican,Unified
+57th session,3/4/1901,3/3/1903,Republicans,Republicans,McKinley / T. Roosevelt,,,Republican,Unified
+58th session,3/4/1903,3/3/1905,Republicans,Republicans,Theodore Roosevelt,9/14/1901,3/3/1909,Republican,Unified
+59th session,3/4/1905,3/3/1907,Republicans,Republicans,Theodore Roosevelt,9/14/1901,3/3/1909,Republican,Unified
+60th session,3/4/1907,3/3/1909,Republicans,Republicans,Theodore Roosevelt,9/14/1901,3/3/1909,Republican,Unified
+61st session,3/4/1909,3/3/1911,Republicans,Republicans,William H. Taft,3/4/1909,3/3/1913,Republican,Unified
+62nd session,3/4/1911,3/3/1913,Democrats,Republicans,William H. Taft,3/4/1909,3/3/1913,Republican,Divided
+63rd session,3/4/1913,3/3/1915,Democrats,Democrats,Woodrow Wilson,3/4/1913,3/3/1921,Democrat,Unified
+64th session,3/4/1915,3/3/1917,Democrats,Democrats,Woodrow Wilson,3/4/1913,3/3/1921,Democrat,Unified
+65th session,3/4/1917,3/3/1919,Democrats,Democrats,Woodrow Wilson,3/4/1913,3/3/1921,Democrat,Unified
+66th session,3/4/1919,3/3/1921,Republicans,Republicans,Woodrow Wilson,3/4/1913,3/3/1921,Democrat,Divided
+67th session,3/4/1921,3/3/1923,Republicans,Republicans,Warren G. Harding,3/4/1921,8/2/1923,Republican,Unified
+68th session,3/4/1923,3/3/1925,Republicans,Republicans,Harding / Coolidge,,,Republican,Unified
+69th session,3/4/1925,3/3/1927,Republicans,Republicans,Calvin Coolidge,8/3/1923,3/3/1929,Republican,Unified
+70th session,3/4/1927,3/3/1929,Republicans,Republicans,Calvin Coolidge,8/3/1923,3/3/1929,Republican,Unified
+71st session,3/4/1929,3/3/1931,Republicans,Republicans,Herbert Hoover,3/4/1929,3/3/1933,Republican,Unified
+72nd session,3/4/1931,3/3/1933,Democrats,Republicans,Herbert Hoover,3/4/1929,3/3/1933,Republican,Divided
+73rd session,3/4/1933,1/3/1935,Democrats,Democrats,Franklin D. Roosevelt,3/4/1933,4/12/1945,Democrat,Unified
+74th session,1/3/1935,1/3/1937,Democrats,Democrats,Franklin D. Roosevelt,3/4/1933,4/12/1945,Democrat,Unified
+75th session,1/3/1937,1/3/1939,Democrats,Democrats,Franklin D. Roosevelt,3/4/1933,4/12/1945,Democrat,Unified
+76th session,1/3/1939,1/3/1941,Democrats,Democrats,Franklin D. Roosevelt,3/4/1933,4/12/1945,Democrat,Unified
+77th session,1/3/1941,1/3/1943,Democrats,Democrats,Franklin D. Roosevelt,3/4/1933,4/12/1945,Democrat,Unified
+78th session,1/3/1943,1/3/1945,Democrats,Democrats,Franklin D. Roosevelt,3/4/1933,4/12/1945,Democrat,Unified
+79th session,1/3/1945,1/3/1947,Democrats,Democrats,F. Roosevelt / Truman,,,Democrat,Unified
+80th session,1/3/1947,1/3/1949,Republicans,Republicans,Harry S. Truman,4/12/1945,1/20/1953,Democrat,Divided
+81st session,1/3/1949,1/3/1951,Democrats,Democrats,Harry S. Truman,4/12/1945,1/20/1953,Democrat,Unified
+82nd session,1/3/1951,1/3/1953,Democrats,Democrats,Harry S. Truman,4/12/1945,1/20/1953,Democrat,Unified
+83rd session,1/3/1953,1/3/1955,Republicans,Republicans,Dwight D. Eisenhower,1/20/1953,1/20/1961,Republican,Unified
+84th session,1/3/1955,1/3/1957,Democrats,Democrats,Dwight D. Eisenhower,1/20/1953,1/20/1961,Republican,Divided
+85th session,1/3/1957,1/3/1959,Democrats,Democrats,Dwight D. Eisenhower,1/20/1953,1/20/1961,Republican,Divided
+86th session,1/3/1959,1/3/1961,Democrats,Democrats,Dwight D. Eisenhower,1/20/1953,1/20/1961,Republican,Divided
+87th session,1/3/1961,1/3/1963,Democrats,Democrats,John F. Kennedy,1/20/1961,11/22/1963,Democrat,Unified
+88th session,1/3/1963,1/3/1965,Democrats,Democrats,Kennedy / L. Johnson,,,Democrat,Unified
+89th session,1/3/1965,1/3/1967,Democrats,Democrats,Lyndon B. Johnson,11/22/1963,1/20/1969,Democrat,Unified
+90th session,1/3/1967,1/3/1969,Democrats,Democrats,Lyndon B. Johnson,11/22/1963,1/20/1969,Democrat,Unified
+91st session,1/3/1969,1/3/1971,Democrats,Democrats,Richard M. Nixon,1/20/1969,8/9/1974,Republican,Divided
+92nd session,1/3/1971,1/3/1973,Democrats,Democrats,Richard M. Nixon,1/20/1969,8/9/1974,Republican,Divided
+93rd session,1/3/1973,1/3/1975,Democrats,Democrats,Nixon / Ford,,,Republican,Divided
+94th session,1/3/1975,1/3/1977,Democrats,Democrats,Gerald R. Ford,8/9/1974,1/20/1977,Republican,Divided
+95th session,1/3/1977,1/3/1979,Democrats,Democrats,James Earl “Jimmy” Carter,1/20/1977,1/20/1981,Democrat,Unified
+96th session,1/3/1979,1/3/1981,Democrats,Democrats,James Earl “Jimmy” Carter,1/20/1977,1/20/1981,Democrat,Unified
+97th session,1/3/1981,1/3/1983,Democrats,Republicans,Ronald Reagan,1/20/1981,1/20/1989,Republican,Divided
+98th session,1/3/1983,1/3/1985,Democrats,Republicans,Ronald Reagan,1/20/1981,1/20/1989,Republican,Divided
+99th session,1/3/1985,1/3/1987,Democrats,Republicans,Ronald Reagan,1/20/1981,1/20/1989,Republican,Divided
+100th session,1/3/1987,1/3/1989,Democrats,Democrats,Ronald Reagan,1/20/1981,1/20/1989,Republican,Divided
+101st session,1/3/1989,1/3/1991,Democrats,Democrats,George H.W. Bush,1/20/1989,1/20/1993,Republican,Divided
+102nd session,1/3/1991,1/3/1993,Democrats,Democrats,George H.W. Bush,1/20/1989,1/20/1993,Republican,Divided
+103rd session,1/3/1993,1/3/1995,Democrats,Democrats,William J. Clinton,1/20/1993,1/20/2001,Democrat,Unified
+104th session,1/3/1995,1/3/1997,Republicans,Republicans,William J. Clinton,1/20/1993,1/20/2001,Democrat,Divided
+105th session,1/3/1997,1/3/1999,Republicans,Republicans,William J. Clinton,1/20/1993,1/20/2001,Democrat,Divided
+106th session,1/3/1999,1/3/2001,Republicans,Republicans,William J. Clinton,1/20/1993,1/20/2001,Democrat,Divided
+107th session,1/3/2001,1/3/2003,Republicans,Republicans / Democrats,George W. Bush,1/20/2001,1/20/2009,Republican,Unified / Divided
+108th session,1/3/2003,1/3/2005,Republicans,Republicans,George W. Bush,1/20/2001,1/20/2009,Republican,Unified
+109th session,1/3/2005,1/3/2007,Republicans,Republicans,George W. Bush,1/20/2001,1/20/2009,Republican,Unified
+110th session,1/3/2007,1/3/2009,Democrats,Democrats,George W. Bush,1/20/2001,1/20/2009,Republican,Divided
+111th session,1/3/2009,1/3/2011,Democrats,Democrats,Barack Obama,1/20/2009,1/20/2017,Democrat,Unified
+112th session,1/3/2011,1/3/2013,Republicans,Democrats,Barack Obama,1/20/2009,1/20/2017,Democrat,Divided
+113th session,1/3/2013,1/3/2015,Republicans,Democrats,Barack Obama,1/20/2009,1/20/2017,Democrat,Divided
+114th session,1/3/2015,1/3/2017,Republicans,Republicans,Barack Obama,1/20/2009,1/20/2017,Democrat,Divided
+115th session,1/3/2017,1/3/2019,Republicans,Republicans,Donald J. Trump,1/20/2017,1/20/2021,Republican,Unified
+116th session,1/3/2019,1/3/2021,Democrats,Republicans,Donald J. Trump,1/20/2017,1/20/2021,Republican,Divided
+117th session,1/3/2021,1/3/2023,Democrats,Democrats,"Joseph R. Biden, Jr.",1/20/2021,1/20/2025,Democrat,Unified
+118th session,1/3/2023,1/3/2025,Republicans,Democrats,"Joseph R. Biden, Jr.",1/20/2021,1/20/2025,Democrat,Divided
+119th session,1/3/2025,1/3/2027,Republicans,Republicans,Donald J. Trump,1/21/2025,1/20/2029,Republican,Unified
+,,,,,,,,,
+"Footnotes
+1. The data sources for this chart are the House of Representatives Party Divisions, the Senate Historical Office's Party Division webpage, and the Biographical Directory of the United States Congress. Party divisions are based on Election Day results unless otherwise indicated.
+2. When Republican President William McKinley died on September 14, 1901, then-Vice President Theodore Roosevelt, a Republican, became President for the remainder of the 57th Congress.
+3. Though more Republicans were elected than Democrats to the House in 1916, third party Members of the 65th Congress (1917–1919) caucused with the Democrats to re-elect Speaker James Beauchamp “Champ” Clark.
+4. When Republican President Warren Harding died on August 2, 1923, then-Vice President Calvin Coolidge, a Republican, became President for the remainder of the 68th Congress.
+5. Elections in the fall of 1930 had provided Republicans with a slim majority in the chamber. But between Election Day 1930 and the opening of the new Congress 13 months later, 14 Representatives-elect died. In the subsequent special elections to fill those vacancies, Democrats won enough seats to recapture the majority. On opening day, Democrats organized the chamber with several Members from third parties. Office of the Historian, ""The Opening of the 72nd Congress.""
+6. When Democratic President Franklin Roosevelt died on April 12, 1945, then-Vice President Harry Truman, a Democrat, became President for the remainder of the 79th Congress.
+7. When Democratic President John Kennedy died on November 22, 1963, then-Vice President Lyndon Johnson, a Democrat, became President for the remainder of the 88th Congress.
+8. When Republican President Richard Nixon resigned on August 9, 1974, then-Vice President Gerald Ford, a Republican, became President for the remainder of the 93rd Congress.
+9. Control of the U.S. Senate changed hands several times in the 107th Congress. From January 3–20, 2001, the Senate was evenly divided between the two parties, the Democrats held the majority due to the deciding vote of outgoing Democratic Vice President Al Gore. After the inauguration of Republican President George W. Bush and Vice President Richard Cheney—with Cheney holding the deciding vote—Senate Republicans assumed the majority. In June 2001, Senator James Jeffords of Vermont switched from being a Republican to an Independent, caucusing with the Democrats, and transferring the majority to the Democrats. Late in that Congress, the death of Democratic Senator Paul Wellstone of Minnesota, the appointment of an Independent to fill his seat, and the election of Republican Senator James M. Talent of Missouri to fill the remainder of the term of the late Senator Mel Carnahan, shifted the balance once again to the Republicans in November 2002, for the remaining two months of the Congress. See United States Senate, ""Party Division,"" https://www.senate.gov/history/partydiv.htm.
+10. In 2006, two Independent Senators caucused with the Democrats, giving that party the majority. United States Senate, ""Party Division,"" https://www.senate.gov/history/partydiv.htm.
+11. On the opening day of the One Hundred Seventeenth Congress, the U.S. Senate was comprised of 51 Republicans, 46 Democrats, 2 Independents (who caucused with the Democrats), and 1 vacancy. No candidate received a majority of votes in the general election for Georgia's class 2 seat or in the special election for Georgia's class 3 seat. Runoff elections for both of the state's Senate seats were scheduled for January 5, 2021. Democratic candidates won both elections. Following the inauguration of Vice President Kamala D. Harris on January 20, 2021, the Senate had a Democratic majority, comprised of 50 Republicans, 48 Democrats, and 2 Independents (who caucus with the Democrats). The Vice President is able to cast tie-breaking votes in the Senate. See United States Senate, ""Party Division,"" https://www.senate.gov/history/partydiv.htm.",,,,,,,,,
