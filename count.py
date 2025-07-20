@@ -43,8 +43,8 @@ print("Detailed columns:", list(nic_detailed.columns), "\n")
 
 # === 4. Congressional Hearings (if raw file exists) ===
 hearings_raw = pd.read_csv("4. CCH/Hearings.csv")
-hearings_summary = pd.read_csv("4. CCH/Hearings_Sentiment_Summary_Merged_Clean.csv")
-hearings_detailed = pd.read_csv("4. CCH/Hearings_Sentiment_Detailed_Merged_Clean.csv")
+hearings_summary = pd.read_csv("4. CCH/Hearings_Sentiment_Summary_Merged_Clean_Deduped.csv")
+hearings_detailed = pd.read_csv("4. CCH/Hearings_Sentiment_Detailed_Merged_Clean_Deduped.csv")
 
 print("🟥 Congressional Hearings")
 print(f"Total hearings in raw dataset: {hearings_raw.shape[0]}")
