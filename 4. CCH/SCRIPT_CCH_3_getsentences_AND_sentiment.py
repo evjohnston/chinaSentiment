@@ -1,17 +1,14 @@
 import os
 import re
 import pandas as pd
-import spacy
 import nltk
 from tqdm import tqdm
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
-from concurrent.futures import ThreadPoolExecutor
 from scipy.special import softmax
 import torch
 import warnings
+from nltk.tokenize import sent_tokenize
 warnings.filterwarnings("ignore", category=FutureWarning)
-
-nltk.download("punkt")
 
 # === File paths ===
 folder = "4. CCH"
@@ -27,7 +24,7 @@ df = pd.read_csv(input_csv)
 if os.path.exists(summary_csv):
     processed_ids = set(pd.read_csv(summary_csv)["packageId"].dropna().unique())
     print(f"🔄 Resuming: {len(processed_ids)} rows already processed.")
-    df = df[~df["packageID"].isin(processed_ids)]
+    df = df[~df["packageId"].isin(processed_ids)]
 else:
     processed_ids = set()
 
@@ -39,11 +36,7 @@ china_keywords = [
 ]
 china_pattern = re.compile(r"\b(" + "|".join(re.escape(k.lower()) for k in china_keywords) + r")\b")
 
-# === Load NLP tools ===
-print("🔁 Loading spaCy...")
-nlp = spacy.load("en_core_web_lg")
-nlp.max_length = 10_000_000
-
+# === Load sentiment model ===
 print("🔁 Loading sentiment model...")
 tokenizer = AutoTokenizer.from_pretrained("cardiffnlp/twitter-roberta-base-sentiment")
 model = AutoModelForSequenceClassification.from_pretrained("cardiffnlp/twitter-roberta-base-sentiment")
@@ -58,39 +51,36 @@ def is_noise_sentence(text):
     )
 
 def extract_china_sentences(text):
-    doc = nlp(text)
+    sentences = sent_tokenize(text)
     return [
-        sent.text.strip()
-        for sent in doc.sents
-        if china_pattern.search(sent.text.lower()) and not is_noise_sentence(sent.text)
+        sent.strip()
+        for sent in sentences
+        if china_pattern.search(sent.lower()) and not is_noise_sentence(sent)
     ]
 
-def compute_sentiment(sentence):
-    try:
-        inputs = tokenizer(sentence, return_tensors="pt", truncation=True, max_length=512)
+def compute_batch_sentiments(sentences, batch_size=16):
+    scores = []
+    for i in range(0, len(sentences), batch_size):
+        batch = sentences[i:i+batch_size]
+        inputs = tokenizer(batch, return_tensors="pt", truncation=True, padding=True, max_length=512)
         with torch.no_grad():
             outputs = model(**inputs)
-        scores = softmax(outputs.logits.numpy()[0])
-        return scores[2] - scores[0]  # pos - neg
-    except Exception as e:
-        print(f"⚠️ Error scoring sentence: {e}")
-        return 0.0
-
-def compute_batch_sentiments(sentences, max_workers=8):
-    with ThreadPoolExecutor(max_workers=max_workers) as executor:
-        return list(executor.map(compute_sentiment, sentences))
+        batch_scores = softmax(outputs.logits.numpy(), axis=1)
+        scores.extend(batch_scores[:, 2] - batch_scores[:, 0])  # pos - neg
+    return scores
 
 # === Main processing ===
 summary_records = []
 sentence_records = []
 skipped_rows = []
 record_buffer = 0
+buffer_threshold = 1000  # Increased for efficiency
 
 print(f"🚀 Processing {len(df)} rows...\n")
 
 for i, row in tqdm(df.iterrows(), total=len(df), desc="🔍 Processing Rows", unit="row", dynamic_ncols=True):
-    package_id = row.get("packageID", "")
-    speech = str(row.get("text", "")).strip()
+    package_id = row.get("packageId", "")
+    speech = str(row.get("Full Text", "")).strip()
 
     if not speech or len(speech) < 1000:
         skipped_rows.append(row)
@@ -113,23 +103,22 @@ for i, row in tqdm(df.iterrows(), total=len(df), desc="🔍 Processing Rows", un
             "China Mention Count": mention_count
         })
 
-        for sent, score in zip(china_sents, sentiment_scores):
-            sentence_records.append({
-                "packageId": package_id,
-                "President": row.get("president", ""),
-                "Year": row.get("year", ""),
-                "Title": row.get("title", ""),
-                "Sentence": sent,
-                "Sentiment": score
-            })
+        sentence_records.extend([{
+            "packageId": package_id,
+            "President": row.get("president", ""),
+            "Year": row.get("year", ""),
+            "Title": row.get("title", ""),
+            "Sentence": sent,
+            "Sentiment": score
+        } for sent, score in zip(china_sents, sentiment_scores)])
 
     else:
         skipped_rows.append(row)
 
     record_buffer += 1
 
-    # === Save every 200 records
-    if record_buffer >= 200:
+    # === Save every N records
+    if record_buffer >= buffer_threshold:
         if summary_records:
             pd.DataFrame(summary_records).to_csv(summary_csv, mode='a', index=False,
                                                  header=not os.path.exists(summary_csv))

@@ -6,33 +6,34 @@ import os
 
 # === Setup ===
 folder = "4. CCH"
-vis_folder = os.path.join(folder, "visualizations_normalized")
+vis_folder = os.path.join(folder, "CCH_visualizations")
 os.makedirs(vis_folder, exist_ok=True)
 
-summary_path = os.path.join(folder, "china_sentiment_summary_merged_cleaned.csv")
+summary_path = os.path.join(folder, "Hearings_Sentiment_Summary_Merged_Clean.csv")
 summary_df = pd.read_csv(summary_path, parse_dates=["publishdate"])
 
 # === Filter to 1990–2025 ===
 summary_df = summary_df[summary_df["Year"].between(1990, 2025)]
 
-# === Normalize column ===
+# === Group and summarize sentiment by congressional session ===
 sentiment_by_session = summary_df.groupby(
-    ["Congress Session", "Presidential Party", "House Majority", "Senate Majority", "President"]
+    ["Congress Session", "Presidential Party", "House Majority", "Senate Majority", "President", "Party Government"]
 ).agg({
     "China Sentiment": "mean"
 }).reset_index()
 
-# === Determine Party Government Type ===
-def classify_party(row):
-    if row["House Majority"] == row["Senate Majority"]:
-        if row["House Majority"] == row["Presidential Party"]:
-            return f"Unified {row['Presidential Party']}"
-        else:
-            return "Divided"
-    else:
+# === Construct full Party Government label ===
+def combine_party_gov(row):
+    pg = str(row["Party Government"]).strip()
+    pres_party = str(row["Presidential Party"]).strip()
+    if pg == "Divided":
         return "Divided"
+    elif pg == "Unified":
+        return f"Unified {pres_party}"
+    else:
+        return "Other"
 
-sentiment_by_session["Party Government"] = sentiment_by_session.apply(classify_party, axis=1)
+sentiment_by_session["Party Government"] = sentiment_by_session.apply(combine_party_gov, axis=1)
 
 # === Sort by numeric session number ===
 sentiment_by_session["Session Number"] = sentiment_by_session["Congress Session"].str.extract(r'(\d+)').astype(int)
@@ -46,6 +47,9 @@ party_colors = {
     "Other": "gray"
 }
 sentiment_by_session["color"] = sentiment_by_session["Party Government"].map(party_colors).fillna("gray")
+
+# === Optional: Debug party labels ===
+print("Party Government values mapped:", sentiment_by_session["Party Government"].unique())
 
 # === Plotting ===
 plt.figure(figsize=(18, 8))
@@ -104,4 +108,4 @@ plt.legend(handles=legend_patches, title="Party Government")
 output_path = os.path.join(vis_folder, "normalized_avg_sentiment_by_congress_session.png")
 plt.tight_layout()
 plt.savefig(output_path)
-print(f"Saved bar chart to {output_path}")
+print(f"✅ Saved bar chart to {output_path}")
