@@ -74,18 +74,17 @@ for i, bar in enumerate(bars):
         rotation=90
     )
 
-# === Add Trend Line ===
-x = sentiment_by_session["Session Number"]
-y = sentiment_by_session["China Sentiment"]
-z = np.polyfit(x, y, 1)
-p = np.poly1d(z)
+# === Add Rolling Average Line ===
+rolling_window = 3  # adjust the size as needed
+sentiment_by_session["Rolling Avg"] = sentiment_by_session["China Sentiment"].rolling(window=rolling_window, center=True).mean()
+
 plt.plot(
     sentiment_by_session["Congress Session"],
-    p(x),
+    sentiment_by_session["Rolling Avg"],
     color="black",
     linestyle="--",
     linewidth=2,
-    label="Trend Line"
+    label=f"{rolling_window}-Session Rolling Avg"
 )
 
 # Labels and title
@@ -100,7 +99,7 @@ legend_patches = [
     mpatches.Patch(color='red', label='Unified Republican'),
     mpatches.Patch(color='green', label='Divided'),
     mpatches.Patch(color='gray', label='Other'),
-    mpatches.Patch(color='black', label='Trend Line')
+    mpatches.Patch(color='black', label=f"{rolling_window}-Session Rolling Avg")
 ]
 plt.legend(handles=legend_patches, title="Party Government")
 
